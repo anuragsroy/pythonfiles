@@ -6,4 +6,4 @@ df=work.read_excel(excel_path)
 print(df.head())
 
 df2=work.DataFrame({1:["Apple","Mango","Banana"],2:[2011,2022,2023]})
-print(df2.head())
+print(df2.iloc[0:1,0:2])
